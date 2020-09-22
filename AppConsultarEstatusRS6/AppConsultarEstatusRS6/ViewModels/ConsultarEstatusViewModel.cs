@@ -11,6 +11,7 @@ namespace AppConsultarEstatusRS6.ViewModels
         public ConsultarEstatusViewModel()
         {
 
+
         }
     }
 }
