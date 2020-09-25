@@ -5,7 +5,38 @@
              x:Class="AppConsultarEstatusRS6.App">
   <Application.Resources>
 
-    <!-- Application resource dictionary -->
+     
+            <ResourceDictionary>
+                <Style x:Key="MeuEstiloDeBotao" TargetType="Button">
+                    <Setter Property="BackgroundColor" Value="#BB86FC" />
+                    <Setter Property="HorizontalOptions" Value="Fill" />
+                    <Setter Property="BorderColor" Value="#707070" />
+                    <Setter Property="BorderRadius" Value="10" />
+                    <Setter Property="BorderWidth" Value="5" />
+                    <Setter Property="WidthRequest" Value="200" />
+                    <Setter Property="Margin" Value="5,0" />
+                    <Setter Property="FontAttributes" Value="Bold,Italic" />
+                  
+                </Style>
+                <Style x:Key="MeuEstiloDeCaixaDeTexto" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="#FFFFFF" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="Margin" Value="5,0" />
+                <Setter Property="FontAttributes" Value="Bold,Italic" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="PlaceholderColor" Value="#BB86FC" />
+            </Style>
+                
+            <Style x:Key="MeuEstiloDeRotulo" TargetType="Label">
+                <Setter Property="TextColor" Value="#F9F9F9" />
+                <Setter Property="FontAttributes" Value="Bold,Italic" />
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="Margin" Value="5,0" />
 
-  </Application.Resources>
+            </Style>
+           
+        </ResourceDictionary>
+      
+
+    </Application.Resources>
 </prism:PrismApplication>

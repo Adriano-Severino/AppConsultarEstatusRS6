@@ -3,9 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="AppConsultarEstatusRS6.Views.ConsultarEstatus">
-    
-    <StackLayout>
+             x:Class="AppConsultarEstatusRS6.Views.EstatusDaConta">
+    <StackLayout HorizontalOptions="Center" BackgroundColor="#292929">
+        <StackLayout>
+            <Label Style="{StaticResource MeuEstiloDeRotulo}" Text="Estatus da conta isso eeeeeeeeedsadjasjhdsajhddasd" Margin="10" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+      
+        </StackLayout>
         <Grid BackgroundColor="#292929" VerticalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
@@ -17,11 +20,11 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-
-            <StackLayout  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="15,0">
-                <Label  Style="{StaticResource MeuEstiloDeRotulo}" Text="Buscar"  />
-                <Entry  Style="{StaticResource MeuEstiloDeCaixaDeTexto}" Placeholder="Digite o nome da conta para consultar"/>
-                <Button  Grid.Row="3" Grid.Column="1" Text="Consultar" Command="{Binding ConsultarEstatus}" Style="{StaticResource MeuEstiloDeBotao}"/>
+           
+           
+            <StackLayout  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">
+             
+               <Button  Grid.Row="1" Grid.Column="2" Text="Voltar" Command="{Binding VoltarConsultarEstatus}"  Style="{StaticResource MeuEstiloDeBotao}"/>
             </StackLayout>
         </Grid>
     </StackLayout>

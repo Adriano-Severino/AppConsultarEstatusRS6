@@ -29,6 +29,7 @@ namespace AppConsultarEstatusRS6
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<ConsultarEstatus, ConsultarEstatusViewModel>();
+            containerRegistry.RegisterForNavigation<EstatusDaConta, EstatusDaContaViewModel>();
         }
     }
 }
