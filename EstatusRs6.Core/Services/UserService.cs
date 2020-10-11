@@ -13,6 +13,7 @@ namespace EstatusRs6.Core.Services
     {
         public async Task<Root> GetUser(string name)
         {
+            
             HttpResponseMessage response = await _client.GetAsync($"{BaseApiUrl}/uplay/{name}");
             Root root = null;
 

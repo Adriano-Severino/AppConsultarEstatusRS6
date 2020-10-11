@@ -20,7 +20,7 @@
 
             <StackLayout  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="15,0">
                 <Frame StyleClass="EntryFrame">
-                    <Entry Text="{Binding Name}" Style="{StaticResource MeuEstiloDeCaixaDeTexto}" Placeholder="Digite o nome da conta para consultar"/>
+                    <Entry Text="{Binding Nome}" Style="{StaticResource MeuEstiloDeCaixaDeTexto}" Placeholder="Digite o nome da conta para consultar"/>
                 </Frame>
 
                 <Button  Grid.Row="3" Grid.Column="1" Text="Consultar" Command="{Binding ConsultarEstatus}" Style="{StaticResource MeuEstiloDeBotao}"/>
