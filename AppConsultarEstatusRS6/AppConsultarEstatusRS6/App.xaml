@@ -7,6 +7,8 @@
 
      
             <ResourceDictionary>
+            <Color x:Key="Purple">#623CEA</Color>
+            
                 <Style x:Key="MeuEstiloDeBotao" TargetType="Button">
                     <Setter Property="BackgroundColor" Value="#BB86FC" />
                     <Setter Property="HorizontalOptions" Value="Fill" />
@@ -34,7 +36,11 @@
                 <Setter Property="Margin" Value="5,0" />
 
             </Style>
-           
+
+            <Style TargetType="Frame" Class="EntryFrame">
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
         </ResourceDictionary>
       
 

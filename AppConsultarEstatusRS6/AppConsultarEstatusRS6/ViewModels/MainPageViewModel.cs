@@ -13,7 +13,7 @@ namespace AppConsultarEstatusRS6.ViewModels
         public MainPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-            Title = "Consulatar Estatus RS6";
+            Title = "Consultar Estatus RS6";
         }
     }
 }
